@@ -6,6 +6,10 @@ import Typography from '@material-ui/core/Typography';
 import Icon from '@material-ui/core/Icon';
 import InputBase from '@material-ui/core/InputBase';
 
+/*
+ * Header Component
+ */
+
 const Header = (props)=> {
     const classes = useStyles();
     const {searchText,setSearchText}=props;

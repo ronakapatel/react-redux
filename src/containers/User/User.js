@@ -6,6 +6,10 @@ import TablePagination from '@material-ui/core/TablePagination';
 import { makeStyles } from '@material-ui/core/styles';
 import UserCard from './../../components/UserCard';
 
+/*
+* User Component
+*/
+
 const User = props => {
     const {actions: { GetUsers }, users, searchText} = props;
 

@@ -3,6 +3,9 @@ import './App.css';
 import User from './../User';
 import Header from './../../components/Header';
 
+/*
+ * App Component
+ */
 const App = ()=> {
 
     //states for search filter
